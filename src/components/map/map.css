@@ -1,0 +1,9 @@
+#map .iframe-map {
+    height: 450px;
+}
+
+@media(max-width: 562px) {
+    #map .iframe-map {
+        height: 300px;
+    }
+}

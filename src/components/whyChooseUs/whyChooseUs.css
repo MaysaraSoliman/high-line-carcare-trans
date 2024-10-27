@@ -1,0 +1,71 @@
+#whyChooseUs {
+    background: url("../../../public/assets/images/hero-section/car-body-polishing-process-at-the-detailing-workshop.jpg");
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+}
+
+#whyChooseUs .why-choose-us-container {
+    display: flex;
+    align-items: center;
+    border: 5px solid var(--color-text-secondary);
+    padding: 20px;
+}
+
+#whyChooseUs .why-choose-us-container .left-col,
+#whyChooseUs .why-choose-us-container .right-col {
+    padding: 20px 30px;
+}
+
+#whyChooseUs .why-choose-us-container .left-col {
+    width: 40%;
+    border-right: 1px solid var(--color-text-secondary);
+}
+
+#whyChooseUs .why-choose-us-container .right-col {
+    width: 60%;
+}
+
+#whyChooseUs .why-choose-us-container .right-col .ant-col {
+    display: flex;
+}
+
+#whyChooseUs .why-choose-us-container .right-col .feature-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 0;
+    border-bottom: 4px solid var(--color-text-secondary);
+    transition: var(--transition-primary);
+    -webkit-transition: var(--transition-primary);
+    -moz-transition: var(--transition-primary);
+    -ms-transition: var(--transition-primary);
+    -o-transition: var(--transition-primary);
+}
+
+#whyChooseUs .why-choose-us-container .right-col .feature-box:hover {
+    border-bottom-color: var(--color-primary);
+}
+
+
+#whyChooseUs .why-choose-us-container .right-col .feature-box .icon {
+    font-size: 85px;
+    color: var(--color-icons-secondary);
+}
+
+@media (max-width: 992px) {
+    #whyChooseUs .why-choose-us-container {
+        flex-direction: column;
+    }
+
+    #whyChooseUs .why-choose-us-container .left-col,
+    #whyChooseUs .why-choose-us-container .right-col {
+        width: 100%;
+    }
+
+    #whyChooseUs .why-choose-us-container .left-col {
+        border-right: 0;
+        border-bottom: 1px solid var(--color-text-secondary);
+    }
+}

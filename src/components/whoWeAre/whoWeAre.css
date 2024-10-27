@@ -1,0 +1,34 @@
+#whoWeAre {
+    margin-bottom: 40px;
+}
+
+#whoWeAre .who-we-are-container {
+    display: flex;
+    gap: 30px;
+}
+
+#whoWeAre .who-we-are-container .left-col,
+#whoWeAre .who-we-are-container .right-col {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+#whoWeAre .who-we-are-container .left-col h2 {
+    margin: 25px 0;
+}
+
+#whoWeAre .who-we-are-container .left-col button {
+    margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+    #whoWeAre .who-we-are-container .left-col h2 {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 997px) {
+    #whoWeAre .who-we-are-container .right-col {
+        display: none;
+    }
+}

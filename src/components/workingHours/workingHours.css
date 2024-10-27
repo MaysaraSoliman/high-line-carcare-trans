@@ -1,0 +1,79 @@
+#workingHours {
+    background: url("../../../public/assets/images/work-shop/estimate-bg_img.png");
+    background-color: #000;
+    /* padding: 60px 0; */
+}
+
+#workingHours .container-working-hours {
+    display: flex;
+    gap: 30px;
+}
+
+#workingHours .container-working-hours .left-col,
+#workingHours .container-working-hours .right-col {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+/* #workingHours .container-working-hours .right-col {
+    padding: 20px 40px;
+} */
+
+#workingHours .container-working-hours .left-col {
+    display: flex;
+}
+
+#workingHours .container-working-hours .left-col .image-col,
+#workingHours .container-working-hours .left-col .working-hours-col {
+    flex: 1;
+    padding: 30px;
+}
+
+#workingHours .container-working-hours .left-col .working-hours-col {
+    background-color: var(--color-bg-thirdly);
+}
+
+#workingHours .container-working-hours .title {
+    margin-bottom: 20px;
+    border-bottom: 0.25px solid var(--color-text-secondary);
+}
+
+#workingHours .container-working-hours .title h3 {
+    color: var(--color-text-thirdly);
+}
+
+#workingHours .container-working-hours .day-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+#workingHours .container-working-hours .day-box:not(:last-child) {
+    border-bottom: 0.25px solid var(--color-text-secondary);
+}
+
+#workingHours .container-working-hours .day-box h5 {
+    margin: 0;
+}
+
+#workingHours .container-working-hours .day-box h5:nth-child(2) {
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 1130px) {
+    #workingHours .container-working-hours {
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 560px) {
+    #workingHours .container-working-hours .left-col {
+        flex-direction: column;
+    }
+
+    #workingHours .container-working-hours .left-col .image-col {
+        display: none;
+    }
+}

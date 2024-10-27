@@ -1,0 +1,41 @@
+{
+  "name": "e-commerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@ant-design/nextjs-registry": "^1.0.1",
+    "@hookform/resolvers": "^3.9.0",
+    "antd": "^5.20.3",
+    "i18next": "^23.15.1",
+    "i18next-fs-backend": "^2.3.2",
+    "i18next-http-backend": "^2.6.1",
+    "next": "14.2.6",
+    "next-i18n-router": "^5.5.1",
+    "next-intl": "^3.20.0",
+    "react": "^18",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18",
+    "react-hook-form": "^7.53.0",
+    "react-i18next": "^15.0.2",
+    "react-icons": "^5.3.0",
+    "react-responsive": "^10.0.0",
+    "styled-components": "^6.1.12",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
+    "typescript": "^5"
+  }
+}

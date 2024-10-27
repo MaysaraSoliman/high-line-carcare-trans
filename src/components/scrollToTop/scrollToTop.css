@@ -1,0 +1,34 @@
+#scrollToTop {
+    position: fixed;
+    bottom: 100px;
+    right: 60px;
+    z-index: 99999;
+}
+
+#scrollToTop .scroll_icon {
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-icons-secondary);
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+#scrollToTop .scroll_icon:hover {
+    background-color: var(--green-color);
+}
+
+#scrollToTop .scroll_icon span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+}

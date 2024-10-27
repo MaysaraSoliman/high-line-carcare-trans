@@ -1,0 +1,67 @@
+#howItWorks {
+    background: url("../../../public/assets/images/work-shop/estimate-bg_img.png");
+    background-color: #000;
+}
+
+#howItWorks .container .container-how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#howItWorks .container .container-how-it-works .header {
+    text-align: center;
+    padding: 0 40px 40px;
+    margin-bottom: 15px;
+}
+
+#howItWorks .container .container-how-it-works .header h2 {
+    margin-top: 25px;
+}
+
+#howItWorks .container .container-how-it-works .steps {
+    margin-top: 15px;
+}
+
+#howItWorks .container .container-how-it-works .steps .ant-col {
+    margin-bottom: 30px;
+}
+
+#howItWorks .container .container-how-it-works .steps .ant-col:nth-of-type(1),
+#howItWorks .container .container-how-it-works .steps .ant-col:nth-of-type(3) {
+    margin-top: 90px;
+}
+
+#howItWorks .container .container-how-it-works .steps .step-box {
+    padding: 40px 20px;
+    background-color: var(--color-bg-thirdly);
+    text-align: center;
+    border: 5px solid var(--color-text-secondary);
+}
+
+#howItWorks .container .container-how-it-works .steps .step-box .step-number {
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    padding: 3px 20px;
+}
+
+#howItWorks .container .container-how-it-works .steps .step-box .step-number h5 {
+    margin: 0;
+}
+
+#howItWorks .container .container-how-it-works .steps .step-box .icon {
+    font-size: 56px;
+    color: var(--color-icons-secondary);
+    margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+
+    #howItWorks .container .container-how-it-works .steps .ant-col:nth-of-type(1),
+    #howItWorks .container .container-how-it-works .steps .ant-col:nth-of-type(3) {
+        margin-top: 0;
+    }
+}
