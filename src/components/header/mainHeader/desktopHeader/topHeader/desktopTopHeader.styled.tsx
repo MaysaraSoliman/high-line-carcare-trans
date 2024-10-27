@@ -32,6 +32,9 @@ export const StyledDesktopTopHeader = styled.div`
 
   @media (max-width: 768px) {
     justify-content: center;
+    .left-col {
+      display: none;
+    }
     .right-col {
       a {
         display: none;
