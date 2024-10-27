@@ -7,6 +7,7 @@ import { useState } from "react";
 import { StyledMobileBottomHeader } from "./mobileBottomHeader.styled";
 import Navbar from "../../navbar/Navbar";
 import Link from "next/link";
+import LocalSwitcher from "@/components/localSwitcher/LocalSwitcher";
 
 const MobileBottomHeader = () => {
   const [open, setOpen] = useState(false);
@@ -30,6 +31,7 @@ const MobileBottomHeader = () => {
           <RxHamburgerMenu className="burger-icon" onClick={showDrawer} />
           <Drawer title="Menu" onClose={onClose} open={open}>
             <Navbar mode={"vertical"} onClose={onClose} />
+            <LocalSwitcher />
           </Drawer>
         </div>
       </StyledMobileBottomHeader>
