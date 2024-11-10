@@ -12,8 +12,9 @@ const ServicesPage = () => {
         }
         mainTitle="Services"
         subTitle="Shine can be found everywhere, but it is most prominently found on cars."
+        transPageKey="ServicesPage"
       />
-      <WorkingHours />
+      <WorkingHours mainLinkBtn={false} />
       <Services />
       <WhyChooseUs />
     </>

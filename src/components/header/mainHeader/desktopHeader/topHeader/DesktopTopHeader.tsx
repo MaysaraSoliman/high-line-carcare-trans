@@ -5,15 +5,17 @@ import { IoLocationOutline } from "react-icons/io5";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { StyledDesktopTopHeader } from "./desktopTopHeader.styled";
 import LocalSwitcher from "@/components/localSwitcher/LocalSwitcher";
+import { useTranslations } from "next-intl";
 
 const DesktopTopHeader = () => {
+  const t = useTranslations();
   return (
     <section>
       <StyledDesktopTopHeader>
         <div className="left-col">
           <IoLocationOutline className="top-header-icon location-icon" />
           <a href="#">
-            <Title level={5}>Jalan Cempaka Wangi No 22</Title>
+            <Title level={5}>{t("ContactUs.location")}</Title>
           </a>
         </div>
         <div className="right-col">

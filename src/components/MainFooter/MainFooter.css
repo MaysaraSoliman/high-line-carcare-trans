@@ -32,6 +32,10 @@
     padding: 10px 0;
 }
 
+#MainFooter .main-footer-container .ant-col li a {
+    color: #fff;
+}
+
 #MainFooter .main-footer-container .ant-col .services-list li:not(:last-child) {
     border-bottom: 0.5px solid;
 }

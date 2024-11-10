@@ -12,11 +12,13 @@ const LocalSwitcher = () => {
   const localActive = useLocale();
 
   const handleChange = (value: string) => {
-    console.log(`selected ${value}`);
     const nextLocale = value;
+    const currentPath = window.location.pathname;
+
+    const newPath = currentPath.replace(/^\/(en|ar)/, "");
 
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      router.replace(`/${nextLocale}${newPath}`);
     });
   };
 

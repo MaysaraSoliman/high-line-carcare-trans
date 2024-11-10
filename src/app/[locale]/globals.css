@@ -142,6 +142,16 @@ a {
   padding: 60px 0;
 }
 
+html[lang="ar"] .slider-container .list-points {
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="ar"] .contact-us-container {
+  direction: rtl;
+  text-align: right;
+}
+
 /* .ant-layout {
   background-color: #fff !important;
 } */

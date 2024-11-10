@@ -12,6 +12,7 @@ const AboutPage = () => {
         }
         mainTitle="About us"
         subTitle="Shine can be found everywhere, but it is most prominently found on cars."
+        transPageKey="AboutPage"
       />
       <WhoWeAre />
       <Counting />

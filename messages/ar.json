@@ -1,7 +1,196 @@
 {
+  "language": "ar",
     "HomePage": {
       "howWeAre": "من نحن",
       "about": "Go to the about page french",
       "freeConsultations": "استشارات مجانية"
+    },
+    "Header":{
+      "home": "الصفحة الرئيسية",
+      "services": "الخدمات",
+      "about": "من نحن",
+      "contact": "اتصل بنا"
+    },
+    "HeroSection":{
+      "firstTitle": "مرحبًا بكم في Highline Car Care",
+      "secondTitle": "شريكك الموثوق به لحماية المركبات",
+      "thirdTitle": "وصيانتها في الرياض، المملكة العربية السعودية",
+      "paragraph": "",
+      "listPoints": {
+        "firstPoint": "مملوكة لأسرة ومشغلة منذ عام 1977",
+        "secondPoint": "أعيدت تسميتها في عام 2018 باسم Highline Car Care",
+        "thirdPoint": "ملتزم بالتميز في عناية و صيانة السيارات"
+      }
+    },
+    "WhoWeAre":{
+     "subTitle": "من نحن" ,
+     "mainTitle": "بسيطة، ومبالغ فيها، في منتجات تفصيلية سرية." ,
+      "firstParagraph": "تخدم Highline Car Care مجتمع السيارات في الرياض، المملكة العربية السعودية، لأكثر من أربعة عقود. أسستها عائلة السليماني في عام 1977، ظل التزامنا بالجودة ورضا العملاء ثابتًا طوال رحلتنا." ,
+      "secondParagraph": "في عام 2018، أعدنا تسميتنا باسم Highline Car Care، مما يعكس تطورنا إلى مزود خدمة رعاية سيارات حديث ومتخصص مع الحفاظ على جذورنا في الخبرة التقليدية في مجال السيارات." ,
+      "thirdParagraph": "يجمع فريقنا من المهنيين المهرة سنوات من الخبرة مع أحدث التقنيات لتقديم نتائج استثنائية لكل مركبة تدخل منشأتنا." ,
+      "MainLinkBtn": "المزيد"
+    },
+   "workingHours": {
+    "title": "ساعات العمل",
+    "days": {
+      "saturday": "السبت",
+      "sunday": "الأحد",
+      "monday": "الإثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة"
+    },
+    "hours": {
+      "open": "من 10:00 إلى 17:00",
+      "close": "مغلق"
     }
-  }
+  },
+  "infoBox": {
+    "firstTitle": "خدماتنا",
+    "secondTitle": "دع خبرائنا يهتمون بك ",
+    "thirdTitle": " تلقائيًا",
+    "paragraph": "Ante ligula eget pulvinar himenaeos litora ridiculus id. Finibus tellus eros neque suscipit donec. Magna phasellus volutpat donec eget habitant aenean commodo lorem.",
+    "button": "اكتشف المزيد"
+  },
+    "Services":{
+      "services": "الخدمات",
+      "ProtectionServices": "خدمات الحماية",
+      "ProtectionCol": {
+        "fullProtection" : "الحماية الكاملة ",
+        "frontProtection" : "حماية الجبهة",
+        "quarterFrontProtection" : "حماية الربع الأمامي ",
+        "frontWindshieldProtection" : "حماية الزجاج الأمامي",
+        "headAndTailLightsProtection" : "حماية الاضاءات الامامية و الخلفية",
+        "thermalInsulationShading" : "التظليل بالعزل الحراري  ",
+        "nanoCeramicTreatment" : " علاج النانو السيراميك"
+      },
+      "PolishingServices": "خدمات التلميع",
+      "PolishingCol":{
+        "internalPolishing": "التلميع الداخلي",
+        "externalPolishing": "التلميع الخارجي",
+        "WaterBasedPolishing": "تلميع مائي لتصحيح مشاكل ما بعد الرش"
+      },
+      "SprayingServices": "خدمات الرش",
+      "SprayingCol":{
+        "paintTratment": "معالجة الطلاء",
+        "removableRubberSpray": "بخاخ مطاطي قابل للإزالة",
+        "removableRubberSprayMatte": "بخاخ مطاطي غير لامع قابل للإزالة",
+        "sprayMatte": "رش غير لامع",
+        "sprayingRims": "رش الحافات",
+        "sprayingClippers": "رش كليبرز",
+        "blackAdditionTreatment": "تكحيل بلاك ادشن"
+      },
+      "Polishing&SprayingServices": "خدمات التلميع & الرش",
+      "Polishing&SprayingCol":{
+        "internalPolishing": "التلميع الداخلي",
+        "externalPolishing": "التلميع الخارجي",
+        "removableRubberSpray": "بخاخ مطاطي قابل للإزالة",
+        "removableRubberSprayMatte": "بخاخ مطاطي غير لامع قابل للإزالة",
+        "sprayMatte": "رش غير لامع",
+        "sprayingRims": "رش الحافات",
+        "sprayingClippers": "رش كليبرز",
+        "blackAdditionTreatment": "تكحيل بلاك ادشن"
+      },
+      "MaintenanceServices": "خدمات الصيانة",
+      "SpecializedIn": "متخصصون في السيارات الأوروبية والألمانية",
+      "MaintenanceCol":{
+        "tinsmithing": "الصبغة",
+        "oilChange": "تغيير الزيوت",
+        "brakePadsReplacement": "صيانة دواسات الفرامل",
+        "accidentRepair": " اصلاح الحوادث"
+      },
+      "InspectionServices": "خدمات الفحص",
+      "InspectionServicesCol": {
+        "computerTechnicalInspection": "فحص كمبيوتر",
+        "maintenancePoints": "فحص نقاط الصيانة الشاملة"
+      },
+      "VIPCarCareAndCleaningServices": "خدمات VIP للعناية بالسيارات وتنظيفها",
+      "VIPCarCareAndCleaningCol": {
+        "CompleteCarWash": "غسيل سيارات كامل VIP"
+      },
+      "MainLinkBtn": "المزيد"
+    },
+    "WhyChooseUs":{
+      "subTitle": "لماذا تختار هاي لاين",
+      "firstMainTitle": " الخبرة والبساطة",
+      "secondMainTitle": " واسعار  ",
+      "thirdMainTitle": " مناسبة.",
+      "MainLinkBtn": "تواصل معنا",
+      "firstBox":{
+        "title": "40 عاما من الخبرة",
+        "paragraph": ""
+      },
+      "secondBox":{
+        "title": "متخصص في خدمات حماية وصيانة السيارات الفاخرة والمتميزة",
+        "paragraph": ""
+      },
+      "thirdBox":{
+        "title": "أحدث المرافق والمعدات",
+        "paragraph": ""
+      },
+      "fourthBox":{
+        "title": "الالتزام برضا العملاء",
+        "paragraph": ""
+      }
+    },
+    "HowItWorks":{
+      "subTitle": "كيف نعمل",
+      "mainTitle": "وداعًا للنتوءات والخدوش",
+      "paragraph": "",
+      "stepOne": "الخطوة 1",
+      "stepTwo": "الخطوة 2",
+      "stepThree": "الخطوة 3",
+      "stepFour": "الخطوة 4",
+      "stepOneCol": {
+        "title": "الاستشارة الأولية",
+        "paragraph": "نقوم بتقييم حالة سيارتك الحالية ومناقشة احتياجاتك الخاصة."
+      },
+      "stepTwoCol": {
+        "title": "اختيار الخدمة",
+        "paragraph": "اختر من بين خدمات الحماية، التلميع، الرش، والصيانة."
+      },
+     "stepThreeCol": {
+      "title": "التطبيق المتخصص",
+      "paragraph": "يطبق الفنيون المدربون لدينا العلاجات المختارة باستخدام أحدث المعدات."
+    },
+    "stepFourCol": {
+      "title": "المتابعة",
+      "paragraph": "نحدد موعدًا للمتابعة للحفاظ على حالة سيارتك المثالية."
+    }
+    },
+    "ContactBox":{
+      "firstNumber": "536771111 (+966) ",
+      "secondNumber": " 565304127 (+966)"
+    },
+    "Counting": {
+    "partners": "الشركاء",
+    "clients": "العملاء",
+    "team": "الفريق",
+    "projects": "المشاريع"
+  },
+  "ContactUs":{
+    "contactUs": "اتصل بنا",
+    "title": "الاستشارة المهنية",
+      "mail": "info@highline.sa",
+      "location": "شارع أبو بكر صديق، محطة أدنوك بجوار سوق اللولو، الياسمين، الرياض"
+    },
+    "Footer":{
+      "copyRights": "حقوق النشر © 2024 جميع الحقوق محفوظة. | من صنع شركة اكسباندا."
+    },
+       "ServicesPage":{
+        "backGroundMainTitle": "الخدمات",
+        "backGroundSubTitle": "يمكن العثور على اللمعان في كل مكان، ولكن يوجد بشكل بارز في HighLine Car Care."
+       },
+       "AboutPage":{
+        "backGroundMainTitle": "معلومات عنا",
+        "backGroundSubTitle": "يمكن العثور على اللمعان في كل مكان، ولكن يوجد بشكل بارز في HighLine Car Care."
+       },
+       "ContactPage":{
+        "backGroundMainTitle": "تواصل معنا",
+        "backGroundSubTitle": "ابدأ المحادثة لتأسيس علاقة جيدة وعمل."
+       }
+    
+   
+}
+  

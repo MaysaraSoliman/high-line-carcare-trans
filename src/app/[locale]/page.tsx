@@ -17,8 +17,8 @@ export default async function Home() {
       <WhoWeAre />
       <Counting />
       <VisionAndMisson />
-      <WorkingHours />
-      <Services />
+      <WorkingHours mainLinkBtn={true} />
+      <Services mainLinkBtn={true} />
       <WhyChooseUs />
       <HowItWork />
       <ContactUs />

@@ -6,8 +6,10 @@ import { StyledContactUsSlider } from "./ContactUsSlider.styled";
 import { TbPhoneCall } from "react-icons/tb";
 import { LuMailCheck } from "react-icons/lu";
 import { BsClockHistory } from "react-icons/bs";
+import { useTranslations } from "next-intl";
 
 const ContactUsSlider = () => {
+  const t = useTranslations();
   return (
     <StyledContactUsSlider className="container contact-us-container">
       <Row gutter={56}>
@@ -22,14 +24,14 @@ const ContactUsSlider = () => {
         </Col>
         <Col xs={24} md={24} lg={10} className="contactus-col">
           <div className="contactus-info-col">
-            <Title level={2}>Professional Consultation</Title>
+            <Title level={2}>{t("ContactUs.title")}</Title>
             <ul className="links">
               <li>
                 <div className="list-box">
                   <IoLocationOutline className="icon" />
                   <a href="https://maps.app.goo.gl/3ouLJHD3uq49sdTv8">
                     <Paragraph className="paragraph">
-                      24/11 Robert Road , New York , USA
+                      {t("ContactUs.location")}
                     </Paragraph>
                   </a>
                 </div>
@@ -37,8 +39,20 @@ const ContactUsSlider = () => {
               <li>
                 <div className="list-box">
                   <TbPhoneCall className="icon" />
-                  <a href={`tel:01556177338}`}>
-                    <Paragraph className="paragraph">+01556177338</Paragraph>
+                  <a href="tel:+966536771111">
+                    <Paragraph className="paragraph">
+                      +{t("ContactBox.firstNumber")}
+                    </Paragraph>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="list-box">
+                  <TbPhoneCall className="icon" />
+                  <a href="tel:+966565304127">
+                    <Paragraph className="paragraph">
+                      {t("ContactBox.secondNumber")}
+                    </Paragraph>
                   </a>
                 </div>
               </li>
@@ -46,7 +60,9 @@ const ContactUsSlider = () => {
                 <div className="list-box">
                   <LuMailCheck className="icon" />
                   <a href="mailto:info@yourcompany.com">
-                    <Paragraph className="paragraph">info@domain.com</Paragraph>
+                    <Paragraph className="paragraph">
+                      {t("ContactUs.mail")}
+                    </Paragraph>
                   </a>
                 </div>
               </li>

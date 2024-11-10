@@ -68,6 +68,7 @@ export const StyledContactUsSlider = styled.div`
       border-bottom: 0.25px solid var(--color-text-secondary);
     }
   }
+
   @media (max-width: 992px) {
     .map-col {
       order: 2;

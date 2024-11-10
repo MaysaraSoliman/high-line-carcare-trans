@@ -12,7 +12,7 @@ export const StyledCarouselSection = styled(Carousel)<StyledCarouselProps>`
     width: 100%;
     position: relative;
     display: flex !important;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
     .overlay {
@@ -21,16 +21,16 @@ export const StyledCarouselSection = styled(Carousel)<StyledCarouselProps>`
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+      background-color: rgba(0, 0, 0, 0.6);
       z-index: 1;
     }
     .text-box {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      /* align-items: center; */
       justify-content: center;
       z-index: 2;
-      text-align: center;
+      /* text-align: center; */
       padding: 0 25px;
       h5 {
         margin-bottom: 30px;
@@ -51,6 +51,22 @@ export const StyledCarouselSection = styled(Carousel)<StyledCarouselProps>`
       gap: 15px;
       @media (max-width: 768px) {
         flex-direction: column;
+      }
+    }
+    .list-points {
+      padding: 50px 0 25px;
+      li {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .icon {
+          color: green;
+          font-size: 30px;
+          z-index: 9999999;
+        }
+      }
+      h5 {
+        margin-bottom: 10px;
       }
     }
   }

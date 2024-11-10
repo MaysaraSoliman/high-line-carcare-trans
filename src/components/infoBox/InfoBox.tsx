@@ -2,6 +2,7 @@ import { Button } from "antd";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
 import "./infoBox.css";
+import { Link } from "@/i18n/routing";
 
 interface infoBoxProps {
   firstTitle: string;
@@ -10,6 +11,7 @@ interface infoBoxProps {
   fourthTitle?: string;
   paragraph: string;
   button?: string;
+  linkPage?: string;
 }
 
 const InfoBox = (props: infoBoxProps) => {
@@ -20,12 +22,14 @@ const InfoBox = (props: infoBoxProps) => {
       {props.thirdTitle ? <Title level={2}>{props.thirdTitle}</Title> : ""}
       {props.fourthTitle ? <Title level={2}>{props.fourthTitle}</Title> : ""}
       <Paragraph className="paragraph">{props.paragraph}</Paragraph>
-      {props.button ? (
+      {props.button && (
         <Button type="primary" className="small-btn">
-          {props.button}
+          {props.linkPage ? (
+            <Link href={props.linkPage}>{props.button}</Link>
+          ) : (
+            props.button
+          )}
         </Button>
-      ) : (
-        ""
       )}
     </div>
   );

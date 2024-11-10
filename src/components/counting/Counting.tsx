@@ -4,8 +4,10 @@ import { Col, Divider, Row, Statistic, StatisticProps } from "antd";
 import { useEffect, useState } from "react";
 import "./counting.css";
 import CountUp from "react-countup";
+import { useTranslations } from "next-intl";
 
 const Counting = () => {
+  const t = useTranslations();
   const [isInView, setIsInView] = useState(false);
   const formatter: StatisticProps["formatter"] = (value) =>
     isInView ? <CountUp end={value as number} separator="," /> : 0;
@@ -40,7 +42,7 @@ const Counting = () => {
           <Row gutter={16}>
             <Col xs={12} md={6}>
               <Statistic
-                title="Partners"
+                title={t("Counting.partners")}
                 value={43}
                 formatter={formatter}
                 prefix={<PlusOutlined />}
@@ -48,7 +50,7 @@ const Counting = () => {
             </Col>
             <Col xs={12} md={6}>
               <Statistic
-                title="Clients"
+                title={t("Counting.clients")}
                 value={60}
                 precision={2}
                 formatter={formatter}
@@ -57,7 +59,7 @@ const Counting = () => {
             </Col>
             <Col xs={12} md={6}>
               <Statistic
-                title="Team"
+                title={t("Counting.team")}
                 value={30}
                 precision={2}
                 formatter={formatter}
@@ -66,7 +68,7 @@ const Counting = () => {
             </Col>
             <Col xs={12} md={6}>
               <Statistic
-                title="Projects"
+                title={t("Counting.projects")}
                 value={1000}
                 precision={2}
                 formatter={formatter}

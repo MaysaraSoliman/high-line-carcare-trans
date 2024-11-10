@@ -1,7 +1,194 @@
 {
+  "language": "en",
     "HomePage": {
       "howWeAre": "How We Are",
       "about": "Go to the about page",
       "freeConsultations": "Free Consultations"
-    }
-  }
+    },
+    "Header":{
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "HeroSection":{
+      "firstTitle": "Welcome to Highline Car Care",
+      "secondTitle": "Your Trusted Partner for Vehicle Protection and",
+      "thirdTitle": "Maintenance in Riyadh, Saudi Arabia",
+      "paragraph": "",
+      "listPoints": {
+        "firstPoint": "Family-owned and operated since 1977",
+        "secondPoint": "Rebranded in 2018 as Highline Car Care",
+        "thirdPoint": "Committed to excellence in Automotive Care"
+      }
+    },
+    "WhoWeAre":{
+      "subTitle": "Who We Are" ,
+      "mainTitle": "Simple, overdible, at facitle secret detailing products." ,
+      "firstParagraph": "Highline Car Care has been serving the automotive community in Riyadh, Saudi Arabia, for over four decades. Founded by the Al-Sulaimani family in 1977, our commitment to quality and customer satisfaction has remained unwavering throughout our journey." ,
+      "secondParagraph": "In 2018, we rebranded as Highline Car Care, reflecting our evolution into a modern, specialized car care service provider while maintaining our roots in traditional automotive expertise." ,
+      "thirdParagraph": "Our team of skilled professionals combines years of experience with cutting-edge techniques to deliver exceptional results for every vehicle that enters our facility." ,
+      "MainLinkBtn": "DISCOVER MORE"
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "days": {
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday"
+      },
+      "hours": {
+        "open": "10:00 to 17:00",
+        "close": "Close"
+      }
+    },
+    "infoBox": {
+      "firstTitle": "Our Services",
+      "secondTitle": "Let our experts take care of",
+      "thirdTitle": "you automatically",
+      "paragraph": "Ante ligula eget pulvinar himenaeos litora ridiculus id. Finibus tellus eros neque suscipit donec. Magna phasellus volutpat donec eget habitant aenean commodo lorem.",
+      "button": "DISCOVER MORE"
+    },
+    "Services":{
+      "services": "Services",
+      "ProtectionServices": "Protection Services",
+      "ProtectionCol": {
+        "fullProtection" : "Full Protection ",
+        "frontProtection" : "Front Protection  ",
+        "quarterFrontProtection" : "Quarter-Front Protection ",
+        "frontWindshieldProtection" : "Front Windshield Protection ",
+        "headAndTailLightsProtection" : "Head and Tail Lights Protection ",
+        "thermalInsulationShading" : "Thermal Insulation Shading ",
+        "nanoCeramicTreatment" : " Nano Ceramic Treatment"
+      },
+      "Polishing&SprayingServices": "Polishing & Spraying Services",
+      "PolishingServices": "Polishing Services",
+      "SprayingServices": "Spraying Services",
+      "PolishingCol":{
+        "internalPolishing": "Internal Polishing",
+        "externalPolishing": "External Polishing",
+        "WaterBasedPolishing": " Water-based Polishing to correct post-spray issues"
+      },
+      "SprayingCol":{
+        "paintTratment": "Paint Tratment",
+        "removableRubberSpray": "Removable Rubber Spray",
+        "removableRubberSprayMatte": "Removable Rubber Spray Matte",
+        "sprayMatte": "Spray Matte",
+        "sprayingRims": " Spraying Rims",
+        "sprayingClippers": "Spraying Clippers",
+        "blackAdditionTreatment": "Black Addition Treatment"
+      },
+      "Polishing&SprayingCol":{
+        "internalPolishing": "Internal Polishing",
+        "externalPolishing": "External Polishing",
+        "removableRubberSpray": "Removable Rubber Spray",
+        "removableRubberSprayMatte": "Removable Rubber Spray Matte",
+        "sprayMatte": "Spray Matte",
+        "sprayingRims": " Spraying Rims",
+        "sprayingClippers": "Spraying Clippers",
+        "blackAdditionTreatment": "Black Addition Treatment"
+      },
+      "MaintenanceServices": "Maintenance Services",
+      "SpecializedIn": "Specialized in European and German Cars",
+      "MaintenanceCol":{
+        "tinsmithing": "Tinsmithing",
+        "oilChange": "Oil Change",
+        "brakePadsReplacement": "Brake Pads Replacement",
+        "accidentRepair": "Accident Repair "
+      },
+      "InspectionServices": "Inspection Services",
+      "InspectionServicesCol": {
+        "computerTechnicalInspection": "Computer Technical Inspection",
+        "maintenancePoints": "Inspection of Comprehensive Maintenance Points"
+      },
+      "VIPCarCareAndCleaningServices": "VIP Car Care and Cleaning Services",
+      "VIPCarCareAndCleaningCol": {
+        "CompleteCarWash": "Complete car wash VIP"
+      },
+      "MainLinkBtn": "DISCOVER MORE"
+    },
+    "WhyChooseUs":{
+      "subTitle": "Why Choose Us",
+      "firstMainTitle": "Experience, simplicity,",
+      "secondMainTitle": "and Reasonable  ",
+      "thirdMainTitle": "prices.",
+      "MainLinkBtn": "CONTACT US",
+      "firstBox":{
+        "title": "40 years of experience",
+        "paragraph": ""
+      },
+      "secondBox":{
+        "title": "Specialized in premium and luxury cars protection and maintenance services ",
+        "paragraph": ""
+      },
+      "thirdBox":{
+        "title": "State-of-the-art facilities and equipment",
+        "paragraph": ""
+      },
+      "fourthBox":{
+        "title": "Commitment to customer satisfaction",
+        "paragraph": ""
+      }
+    },
+    "HowItWorks":{
+      "subTitle": "How it works",
+      "mainTitle": "Goodbye dents and scratches!",
+      "paragraph": "",
+      "stepOne": "Step 1",
+      "stepTwo": "Step 2",
+      "stepThree": "Step 3",
+      "stepFour": "Step 4",
+      "stepOneCol":{
+        "title": "Initial Consultation",
+        "paragraph": "We assess your vehicle's current condition and discuss your specific needs."
+      },
+      "stepTwoCol":{
+        "title": "Service Selection",
+        "paragraph": "Choose from our range of protection, polishing, spraying, and maintenance services."
+      },
+      "stepThreeCol":{
+        "title": "Expert Application",
+        "paragraph": "Our trained technicians apply the selected treatments using state-of-the-art equipment."
+      },
+      "stepFourCol":{
+        "title": "Follow-up",
+        "paragraph": " We schedule a follow-up appointment to maintain your vehicle's optimal condition."
+      }
+    },
+    "ContactBox":{
+      "firstNumber": "(+966) 536771111",
+      "secondNumber": "(+966) 565304127"
+    },
+    "Counting": {
+      "partners": "Partners",
+      "clients": "Clients",
+      "team": "Team",
+      "projects": "Projects"
+    },
+    "ContactUs":{
+      "contactUs": "Contact Us",
+      "title": "Professional Consultation",
+      "mail": "info@highline.sa",
+      "location": "Abu Bakr Siddiq Street, ADNOC Station next to Lulu Market, Al-yasmin, Riyadh"
+    },
+    "Footer":{
+      "copyRights": " Copyright © 2024 All Rights Reserved. | Made By Expanda."
+    },
+    "ServicesPage":{
+      "backGroundMainTitle": "Services",
+      "backGroundSubTitle": "Shine can be found everywhere, but it is most prominently found on HighLine Car Care."
+     },
+     "AboutPage":{
+      "backGroundMainTitle": "Contact us",
+      "backGroundSubTitle": "Start the conversation to established good relationship and business."
+     },
+     "ContactPage":{
+      "backGroundMainTitle": "About us",
+      "backGroundSubTitle": "Start the conversation to established good relationship and business."
+     }
+   
+}

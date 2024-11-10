@@ -5,8 +5,10 @@ import { Button, Divider } from "antd";
 import Image from "next/image";
 import "./workShop.css";
 import workShopBackGroundImage from "../../../public/assets/images/work-shop/workshop-bg-removebg-preview.png";
+import { useTranslations } from "next-intl";
 
 const WorkShop = () => {
+  const t = useTranslations();
   return (
     <section className="animationAppearFromBottom" id="workShop">
       <div className={`container workShop-container `}>
@@ -19,13 +21,13 @@ const WorkShop = () => {
           <div className="contacts-box">
             <ContactBox
               className="left-col"
-              title="Free Consultations"
-              number="888-6000-613"
+              // title="Free Consultations"
+              number={t("ContactBox.firstNumber")}
             />
             <ContactBox
               className="right-col"
-              title="Book Appointment"
-              number="888-4000-234"
+              // title="Book Appointment"
+              number={t("ContactBox.secondNumber")}
             />
           </div>
           <Image

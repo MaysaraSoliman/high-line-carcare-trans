@@ -8,8 +8,10 @@ import ContactBox from "../contactBox/ContactBox";
 import Title from "antd/es/typography/Title";
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa6";
 import { PiInstagramLogoFill } from "react-icons/pi";
+import { useTranslations } from "next-intl";
 
 const MainFooter = () => {
+  const t = useTranslations();
   return (
     <div id="MainFooter">
       <div className="container main-footer-container">
@@ -24,30 +26,31 @@ const MainFooter = () => {
             </Paragraph>
             <ContactBox
               className="left-col"
-              title="Free Consultations"
-              number="888-6000-613"
+              // title="Free Consultations"
+              number={t("ContactBox.firstNumber")}
             />
           </Col>
           <Col xs={24} md={12} lg={6}>
             <div className="title">
-              <Title level={3}>Services</Title>
+              <Title level={3}>{t("Services.services")}</Title>
             </div>
             <ul className="services-list">
-              <li>Body Repair</li>
-              <li>Car Detailing</li>
-              <li>Car Painting</li>
-              <li>Engine Repair</li>
-              <li>Accessories</li>
+              <li>{t("Services.ProtectionServices")}</li>
+              <li>{t("Services.Polishing&SprayingServices")}</li>
+              <li>{t("Services.MaintenanceServices")}</li>
             </ul>
           </Col>
           <Col xs={24} md={12} lg={6}>
             <div className="title">
-              <Title level={3}>Contact Us</Title>
+              <Title level={3}>{t("ContactUs.contactUs")}</Title>
             </div>
             <ul className="contact-list">
-              <li>Jalan Cempaka Wangi No 22</li>
-              <li>info@domain.com</li>
-              <li>+(123) 698-5245</li>
+              <li>{t("ContactUs.location")}</li>
+              <li>{t("ContactUs.mail")}</li>
+              <li>
+                {" "}
+                <a href="tel:+966536771111">+{t("ContactBox.firstNumber")}</a>
+              </li>
             </ul>
             <div className="social-links">
               <a href="#">
@@ -68,7 +71,8 @@ const MainFooter = () => {
       </div>
       <Divider className="divider" />
       <div className="copy-rights">
-        Copyright © 2024 All Rights Reserved. | Made By Expanda.
+        {t("Footer.copyRights")}
+        {/* Copyright © 2024 All Rights Reserved. | Made By Expanda. */}
       </div>
     </div>
   );

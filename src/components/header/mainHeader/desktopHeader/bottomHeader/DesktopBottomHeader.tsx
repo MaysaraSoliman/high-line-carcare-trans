@@ -7,7 +7,7 @@ import ContactBox from "@/components/contactBox/ContactBox";
 import { useTranslations } from "next-intl";
 
 const DesktopBottomHeader = () => {
-  const t = useTranslations("HomePage");
+  const t = useTranslations();
   return (
     <StyledDesktopBottomHeader>
       <Link className="logo-link" href={"/"}>
@@ -16,8 +16,8 @@ const DesktopBottomHeader = () => {
       <Navbar mode={"horizontal"} />
       <ContactBox
         className="right-col"
-        title={t("freeConsultations")}
-        number="888-6000-613"
+        // title={t("freeConsultations")}
+        number={t("ContactBox.firstNumber")}
       />
     </StyledDesktopBottomHeader>
   );

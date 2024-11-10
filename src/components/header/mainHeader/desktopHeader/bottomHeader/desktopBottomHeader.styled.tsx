@@ -10,7 +10,12 @@ export const StyledDesktopBottomHeader = styled.div`
     align-items: center;
   }
   .nav {
-    width: 300px;
+    width: 400px;
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .anticon-user,
   .anticon-user-add {

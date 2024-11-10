@@ -8,13 +8,22 @@
     padding: 30px 0;
 }
 
-#counting .ant-col:not(:last-child) {
+html[lang="en"] #counting .ant-col:not(:last-child) {
     border-right: 2px solid var(--color-text-secondary);
     -webkit-border-right: 2px solid var(--color-text-secondary);
     -moz-border-right: 2px solid var(--color-text-secondary);
     -ms-border-right: 2px solid var(--color-text-secondary);
     -o-border-right: 2px solid var(--color-text-secondary);
 }
+
+html[lang="ar"] #counting .ant-col:not(:last-child) {
+    border-left: 2px solid var(--color-text-secondary);
+    -webkit-border-left: 2px solid var(--color-text-secondary);
+    -moz-border-left: 2px solid var(--color-text-secondary);
+    -ms-border-left: 2px solid var(--color-text-secondary);
+    -o-border-left: 2px solid var(--color-text-secondary);
+}
+
 
 #counting .ant-statistic {
     margin-bottom: 10px;
