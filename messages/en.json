@@ -189,6 +189,124 @@
      "ContactPage":{
       "backGroundMainTitle": "Contact us",
       "backGroundSubTitle": "Start the conversation to established good relationship and business."
+     },
+     "ServicesSinglePage":{
+      "ProtectionServices":{
+       "FullProtection": {
+         "Title": "Full Protection ",
+        "Description": "Our comprehensive full protection package shields your entire vehicle from environmental damage, protecting against UV rays, dust, and extreme temperatures"
+       },
+       "FrontProtection": {
+         "Title": "Front Protection",
+        "Description": "Protect the most exposed part of your car with our front-end protection service, safeguarding against road debris and weather conditions"
+       },
+       "QuarterFrontProtection": {
+         "Title": "Quarter-Front Protection",
+        "Description": "Extend your car's protection to the quarter panels, enhancing durability and reducing the risk of dents and scratches"
+       },
+       "FrontWindshieldProtection": {
+         "Title": "Front Windshield Protection",
+        "Description": "Keep your windshield clear and protected with our specialized treatment, preventing etching and improving visibility"
+       },
+       "HeadAndTailLightsProtection": {
+         "Title": "Head and Tail Lights Protection",
+        "Description": "Brighten up your night driving with our headlight and taillight protection service, enhancing light output and longevity"
+       },
+       "ThermalInsulationShading": {
+         "Title": "Thermal Insulation Shading",
+        "Description": "Experience reduced interior temperature fluctuations with our thermal insulation shading service, keeping your cabin comfortable year-round"
+       },
+       "NanoCeramicTreatment": {
+         "Title": "Nano Ceramic Treatment",
+        "Description": "Discover the future of car protection with our advanced nano ceramic treatment, creating a durable, glossy barrier against contaminants"
+       }
+      },
+      "PolishingServices": {
+        "InternalPolishing": {
+          "Title": "Internal Polishing",
+          "Description": "Restore your car's interior to showroom condition with our thorough internal polishing service, including seats, carpets, and dashboard"
+        },
+        "ExternalPolishing": {
+          "Title": "External Polishing",
+          "Description": "Bring back the shine and luster of your vehicle's exterior with our professional external polishing treatment"
+        },
+        "WaterBasedPolishing": {
+          "Title": "Water-Based Polishing",
+          "Description": "Corrects minor imperfections and restores shine to your vehicle's paintwork using eco-friendly water-based polishes"
+        }
+      },
+      "SprayingServices": {
+        "PaintTreatment": {
+          "Title": "Paint Treatment",
+          "Description": "Enhances color depth and protects your vehicle's finish with specialized treatments designed to extend paint life and durability"
+        },
+        "RemovableRubberSprayMatte": {
+          "Title": "Removable Rubber Spray Matte",
+          "Description": "Protect fragile and weak areas of your car with our removable rubber spray, providing temporary protection against minor scratches and chips"
+        },
+        "SprayMatte": {
+          "Title": "Spray Matte",
+          "Description": "Give your car a sleek, modern appearance with our spray matte finish, reducing glare and enhancing aerodynamics"
+        },
+        "SprayingRims": {
+          "Title": "Spraying Rims",
+          "Description": "Enhance the visual appeal of your wheels with our rim spraying service, protecting against brake dust and road debris"
+        },
+        "SprayingClippers": {
+          "Title": "Spraying Clippers",
+          "Description": "Protect your car's side mirrors and door handles with our specialized clippers spraying service, preventing damage from daily wear and tear"
+        },
+        "BlackAdditionTreatment": {
+          "Title": "Black Addition Treatment",
+          "Description": "Experience the ultimate in car customization with our black addiition treatment, transforming your vehicle's appearance with a deep, glossy black finish"
+        }
+      },
+      "MaintenanceServices": {
+        "Tinsmithing": {
+          "Title": "Tinsmithing",
+          "Description": "Our skilled tinsmiths specialize in repairing and replacing various automotive components, ensuring your vehicle remains safe and functional"
+        },
+        "OilChange": {
+          "Title": "Oil Change",
+          "Description": "Keep your engine running smoothly with our professional oil change service, extending the life of your vehicle"
+        },
+        "BrakePadsReplacement": {
+          "Title": "Brake Pads Replacement",
+          "Description": "Ensure optimal braking performance with our comprehensive brake pad replacement service"
+        },
+        "AccidentRepair": {
+          "Title": "Accident Repair",
+          "Description": "Restore your vehicle to pre-accident condition with our skilled accident repair services"
+        },
+        "BodyColdWorkingAdjustment": {
+          "Title": "Accident Repair",
+          "Description": "Improves vehicle alignment and performance through precise adjustments made while the car is cold, ensuring optimal handling and fuel efficiency"
+        },
+        "FaceLiftForEuropeanVehicles": {
+          "Title": "Accident Repair",
+          "Description": "Revitalizes your luxury European vehicle's appearance with advanced techniques and premium materials, restoring its showroom shine and youthful appeal"
+        },
+        "RegularMaintenanceForEuropeanCars": {
+          "Title": "Regular Maintenance For European Cars",
+          "Description": "Ensures your high-performance European vehicle runs smoothly and efficiently with our comprehensive routine maintenance services tailored to each model's unique needs"
+        }
+      },
+      "InspectionServices": {
+        "ComputerTechnicalInspection": {
+          "Title": "Computer Technical Inspection",
+          "Description": "Utilizes cutting-edge diagnostic tools to identify and address potential issues early, maintaining peak performance and preventing costly repairs down the road"
+        },
+        "InspectionOfComprehensiveMaintenancePoints": {
+          "Title": "Inspection of Comprehensive Maintenance Points",
+          "Description": "Conducts a thorough examination of critical systems and components to pinpoint areas requiring attention, providing a roadmap for long-term vehicle health and longevity"
+        }
+      },
+      "VIPCarCareAndCleaningServices": {
+        "CompleteCarWashVIP": {
+          "Title": "Complete Car Wash VIP",
+          "Description": "Delivers personalized, meticulous care for discerning vehicles, offering a luxurious experience that combines superior cleaning with specialized detailing techniques"
+        }
+      }
      }
    
 }

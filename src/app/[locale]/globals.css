@@ -175,6 +175,33 @@ html[lang="ar"] .contact-us-container {
   color: #000 !important;
 }
 
+
+.ant-image-preview-root .ant-image-preview-mask {
+  background-color: rgb(0 0 0 / 75%) !important;
+}
+
+
+.ant-image-preview>div {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.ant-image-preview-content {
+  height: 100%;
+}
+
+.ant-image-preview-img {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  padding: 20px 24px;
+}
+
 h1 {
   font-size: 45px !important;
 }
