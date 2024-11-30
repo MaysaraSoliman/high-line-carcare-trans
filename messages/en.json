@@ -17,9 +17,20 @@
       "thirdTitle": "Maintenance in Riyadh, Saudi Arabia",
       "paragraph": "",
       "listPoints": {
-        "firstPoint": "Family-owned and operated since 1977",
-        "secondPoint": "Rebranded in 2018 as Highline Car Care",
-        "thirdPoint": "Committed to excellence in Automotive Care"
+        "firstPoint": "Exprience and pioneer since 1977",
+        "secondPoint": "Latest technology and equipment for best results",
+        "thirdPoint": "Committed to excellence in German and European Automotive Care"
+      }
+    },
+    "HighlineCenter":{
+      "ReachOurExperts":{
+        "mainTitle": "Reach Our Experts",
+        "paragraph": "Tell us about you and your vehicle for a free initial repair estimate.",
+        "button":"Start Your Plan"
+      },
+      "HighlineCarCareCenter":{
+        "mainTitle": "Highline Car Care Center",
+        "paragraph": "At Highline, we offer a comprehensive range of services to keep your vehicle running at its best. Our specialized team uses the latest technology and products to ensure thorough maintenance, providing you with peace of mind and outstanding performance on the road."
       }
     },
     "WhoWeAre":{
@@ -44,6 +55,27 @@
       "hours": {
         "open": "10:00 to 17:00",
         "close": "Close"
+      }
+    },
+    "VisionAndMission":{
+      "values":{
+        "title": "Our Values",
+        "firstMainTitle": "We believe in delivering excellence through integrity",
+        "secondMainTitle": "precision, and customer-focused service.",
+        "List":{
+          "firstPoint": "We never compromise on quality, ensuring each vehicle receives the highest standards of care.",
+          "secondPoint": "Our clients’ satisfaction is our priority. We listen to their needs and provide tailored solutions that exceed expectations.",
+          "thirdPoint": "With over four decades of experience, we combine traditional automotive expertise with the latest technologies to provide superior service.",
+          "fourthPoint": "We build lasting relationships with our clients by offering transparent services and honest advice."
+        },
+        "Vision":{
+          "ourVisionTitle": "Our Vision",
+          "paragraph": "To be the leading provider of premium vehicle protection and maintenance services in Saudi Arabia, setting new standards in customer care, innovation, and expertise. We aim to redefine the car care experience by ensuring that every vehicle we serve receives the best treatment, from luxury cars to everyday vehicles."
+        },
+        "Mission":{
+          "ourMissionTitle": "Our Mission",
+          "paragraph": "Providing exceptional automotive care and protection services that guarantee the longevity and performance of your vehicle. With a team of highly skilled professionals and state-of-the-art facilities, we strive to ensure that every customer drives away with peace of mind, knowing their car is in expert hands."
+        }
       }
     },
     "infoBox": {

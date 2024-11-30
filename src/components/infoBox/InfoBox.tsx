@@ -9,7 +9,8 @@ interface InfoBoxProps {
   secondTitle: string;
   thirdTitle?: string;
   fourthTitle?: string;
-  paragraph: string;
+  paragraph?: string;
+  list?: string[];
   button?: string;
   linkPage?: string;
 }
@@ -21,7 +22,9 @@ const InfoBox = (props: InfoBoxProps) => {
       <Title level={2}>{props.secondTitle}</Title>
       {props.thirdTitle && <Title level={2}>{props.thirdTitle}</Title>}
       {props.fourthTitle && <Title level={2}>{props.fourthTitle}</Title>}
-      <Paragraph className="paragraph">{props.paragraph}</Paragraph>
+      {props.paragraph && (
+        <Paragraph className="paragraph">{props.paragraph}</Paragraph>
+      )}
       {props.button && props.linkPage ? (
         <Link href={props.linkPage}>
           <Button type="primary" className="small-btn">
@@ -34,6 +37,13 @@ const InfoBox = (props: InfoBoxProps) => {
             {props.button}
           </Button>
         )
+      )}
+      {props.list && props.list.length > 0 && (
+        <ul>
+          {props.list.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       )}
     </div>
   );

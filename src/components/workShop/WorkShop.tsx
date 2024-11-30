@@ -13,10 +13,11 @@ const WorkShop = () => {
     <section className="animationAppearFromBottom" id="workShop">
       <div className={`container workShop-container `}>
         <div className={`repair-container`}>
-          <Title level={2}>Car repair workshop</Title>
+          <Title level={2}>
+            {t("HighlineCenter.HighlineCarCareCenter.mainTitle")}
+          </Title>
           <Paragraph className="paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            {t("HighlineCenter.HighlineCarCareCenter.paragraph")}
           </Paragraph>
           <div className="contacts-box">
             <ContactBox
@@ -37,14 +38,16 @@ const WorkShop = () => {
           />
         </div>
         <div className={`estimate-container`}>
-          <Title level={2}>Get an estimate</Title>
+          <Title level={2}>
+            {" "}
+            {t("HighlineCenter.ReachOurExperts.mainTitle")}
+          </Title>
           <Paragraph className="paragraph">
-            Tell us about you and your vehicle to get a free initial repair
-            estimate.
+            {t("HighlineCenter.ReachOurExperts.paragraph")}
           </Paragraph>
           <Divider />
           <Button type="primary" className="small-btn">
-            START YOUR ESTIMATE
+            {t("HighlineCenter.ReachOurExperts.button")}
           </Button>
         </div>
       </div>

@@ -50,12 +50,17 @@
 #visionAndMission .vision-mission-container .right-col .mission-box .icon {
     font-size: 85px;
     color: var(--color-primary);
+    min-width: 32px;
 }
 
 
 #visionAndMission .vision-mission-container .right-col .vision-box h3,
 #visionAndMission .vision-mission-container .right-col .mission-box h3 {
     color: var(--color-primary);
+}
+
+#visionAndMission .vision-mission-container .right-col .mission-box .ant-typography {
+    line-height: 1.6;
 }
 
 @media (max-width: 992px) {
