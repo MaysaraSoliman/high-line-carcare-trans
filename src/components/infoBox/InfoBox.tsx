@@ -25,6 +25,13 @@ const InfoBox = (props: InfoBoxProps) => {
       {props.paragraph && (
         <Paragraph className="paragraph">{props.paragraph}</Paragraph>
       )}
+      {props.list && props.list.length > 0 && (
+        <ul>
+          {props.list.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      )}
       {props.button && props.linkPage ? (
         <Link href={props.linkPage}>
           <Button type="primary" className="small-btn">
@@ -37,13 +44,6 @@ const InfoBox = (props: InfoBoxProps) => {
             {props.button}
           </Button>
         )
-      )}
-      {props.list && props.list.length > 0 && (
-        <ul>
-          {props.list.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
       )}
     </div>
   );

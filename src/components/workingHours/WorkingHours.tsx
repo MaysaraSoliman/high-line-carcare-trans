@@ -12,6 +12,14 @@ interface workingHoursProps {
 const WorkingHours = (props: workingHoursProps) => {
   const t = useTranslations();
 
+  const List = [
+    t("infoBox.List.firstPoint"),
+    t("infoBox.List.secondPoint"),
+    t("infoBox.List.thirdPoint"),
+    t("infoBox.List.fourthPoint"),
+    t("infoBox.List.fifthPoint"),
+  ];
+
   return (
     <section id="workingHours">
       <div className="overlayRedBlack"></div>
@@ -58,7 +66,8 @@ const WorkingHours = (props: workingHoursProps) => {
             firstTitle={t("infoBox.firstTitle")}
             secondTitle={t("infoBox.secondTitle")}
             thirdTitle={t("infoBox.thirdTitle")}
-            paragraph={t("infoBox.paragraph")}
+            // paragraph={t("infoBox.paragraph")}
+            list={List}
             button={props.mainLinkBtn ? t("infoBox.button") : undefined}
             linkPage="/services"
           />

@@ -70,7 +70,7 @@ const ContactUsSlider = () => {
                 <div className="list-box">
                   <BsClockHistory className="icon" />
                   <Paragraph className="paragraph">
-                    Mon to Sat 9:00AM to 9:00PM
+                    {t("ContactUs.time")}
                   </Paragraph>
                 </div>
               </li>

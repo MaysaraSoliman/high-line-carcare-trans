@@ -21,7 +21,6 @@ const WhyChooseUs = () => {
               secondTitle={t("firstMainTitle")}
               thirdTitle={t("secondMainTitle")}
               fourthTitle={t("thirdMainTitle")}
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
               button={t("MainLinkBtn")}
               linkPage="/contact"
             />
@@ -34,8 +33,7 @@ const WhyChooseUs = () => {
                   <div className="text-box">
                     <Title level={3}>{t("firstBox.title")}</Title>
                     <Paragraph className="paragraph">
-                      Eget facilisi risus aliquet odio accumsan semper auctor
-                      tincidunt condimentum porttitor rutrum
+                      {t("firstBox.paragraph")}
                     </Paragraph>
                   </div>
                 </div>
@@ -46,8 +44,7 @@ const WhyChooseUs = () => {
                   <div className="text-box">
                     <Title level={3}>{t("secondBox.title")}</Title>
                     <Paragraph className="paragraph">
-                      Eget facilisi risus aliquet odio accumsan semper auctor
-                      tincidunt condimentum porttitor rutrum
+                      {t("secondBox.paragraph")}
                     </Paragraph>
                   </div>
                 </div>
@@ -60,8 +57,7 @@ const WhyChooseUs = () => {
                   <div className="text-box">
                     <Title level={3}>{t("thirdBox.title")}</Title>
                     <Paragraph className="paragraph">
-                      Eget facilisi risus aliquet odio accumsan semper auctor
-                      tincidunt condimentum porttitor rutrum
+                      {t("thirdBox.paragraph")}
                     </Paragraph>
                   </div>
                 </div>
@@ -72,8 +68,7 @@ const WhyChooseUs = () => {
                   <div className="text-box">
                     <Title level={3}>{t("fourthBox.title")}</Title>
                     <Paragraph className="paragraph">
-                      Eget facilisi risus aliquet odio accumsan semper auctor
-                      tincidunt condimentum porttitor rutrum
+                      {t("fourthBox.paragraph")}
                     </Paragraph>
                   </div>
                 </div>
