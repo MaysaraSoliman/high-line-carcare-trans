@@ -54,7 +54,7 @@
       },
       "hours": {
         "open": "9:00 to 21:00",
-        "close": "Close"
+        "close": "Closed"
       }
     },
     "VisionAndMission":{
@@ -211,7 +211,7 @@
     "ContactUs":{
       "contactUs": "Contact Us",
       "title": "Professional Consultation",
-      "mail": "info@highline.sa",
+      "mail": "info@highline-carcare.com",
       "location": "Abu Bakr Siddiq Street, ADNOC Station next to Lulu Market, Al-yasmin, Riyadh",
       "time" : "Sat to Thu 9:00AM to 9:00PM"
     },

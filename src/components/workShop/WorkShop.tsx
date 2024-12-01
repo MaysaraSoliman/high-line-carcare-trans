@@ -46,7 +46,12 @@ const WorkShop = () => {
             {t("HighlineCenter.ReachOurExperts.paragraph")}
           </Paragraph>
           <Divider />
-          <Button type="primary" className="small-btn">
+          <Button
+            href="https://wa.me/966565304127?text=Hi%20there!"
+            target="_blank"
+            type="primary"
+            className="small-btn"
+          >
             {t("HighlineCenter.ReachOurExperts.button")}
           </Button>
         </div>

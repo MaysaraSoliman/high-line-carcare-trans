@@ -15,10 +15,10 @@ const HowItWork = () => {
           <div className="header animationAppearFromTop">
             <Title level={5}>{t("subTitle")}</Title>
             <Title level={2}>{t("mainTitle")}</Title>
-            <Paragraph className="paragraph">
+            {/* <Paragraph className="paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-            </Paragraph>
+            </Paragraph> */}
           </div>
           <Row gutter={18} className="steps">
             <Col className="animationAppearFromTop" xs={24} md={12} lg={6}>

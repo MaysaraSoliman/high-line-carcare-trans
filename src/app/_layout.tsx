@@ -2,6 +2,7 @@ import DesktopTopHeader from "@/components/header/mainHeader/desktopHeader/topHe
 import MainHeader from "@/components/header/mainHeader/MainHeader";
 import MainFooter from "@/components/MainFooter/MainFooter";
 import ScrollToTop from "@/components/scrollToTop/ScrollToTop";
+import WhatsappBtn from "@/components/whatsappBtn/WhatsappBtn";
 import { Layout } from "antd";
 import { Content, Footer, Header } from "antd/es/layout/layout";
 
@@ -19,6 +20,7 @@ const MainLayout = ({
       <Content>
         {children}
         <ScrollToTop />
+        <WhatsappBtn />
       </Content>
       <Footer>
         <MainFooter />

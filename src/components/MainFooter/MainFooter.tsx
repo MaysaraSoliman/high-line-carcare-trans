@@ -23,8 +23,7 @@ const MainFooter = () => {
               <Image src={LogoImage} alt="Logo" />
             </div>
             <Paragraph className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              {t("HeroSection.secondTitle")} {t("HeroSection.thirdTitle")}
             </Paragraph>
             <ContactBox
               className="left-col"
@@ -50,10 +49,14 @@ const MainFooter = () => {
             </div>
             <ul className="contact-list">
               <li>{t("ContactUs.location")}</li>
-              <li>{t("ContactUs.mail")}</li>
+              <li>
+                <a href="mailto:info@highline-carcare.com" target="_blank">
+                  {t("ContactUs.mail")}
+                </a>
+              </li>
               <li>
                 {" "}
-                <a href="tel:+966536771111">+{t("ContactBox.firstNumber")}</a>
+                <a href="tel:+966536771111">{t("ContactBox.firstNumber")}</a>
               </li>
             </ul>
             <div className="social-links">
