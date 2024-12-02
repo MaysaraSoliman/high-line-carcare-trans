@@ -17,7 +17,7 @@ const ContactUsSlider = () => {
           <div className="map">
             <iframe
               id="mapFrame"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13820.41444054195!2d31.4744839!3d30.0051812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458231ca5ac1dd1%3A0x705661a73ed23b4f!2sDentolize%20Inc!5e0!3m2!1sen!2seg!4v1727341808691!5m2!1sen!2seg"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14485.530602219978!2d46.6660411!3d24.8165845!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efcd040ef459b%3A0xfc72438b83cec0f1!2zSElHSExJTkUg2YfYp9mKINmE2KfZitmGINin2YTZitin2LPZhdmK2YY!5e0!3m2!1sen!2seg!4v1731253998376!5m2!1sen!2seg"
               loading="lazy"
             ></iframe>
           </div>

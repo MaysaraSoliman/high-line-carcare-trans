@@ -16,7 +16,7 @@ const DesktopTopHeader = () => {
       <StyledDesktopTopHeader>
         <div className="left-col">
           <IoLocationOutline className="top-header-icon location-icon" />
-          <a href="#">
+          <a href="https://maps.app.goo.gl/v9DBPfUr2isb6YC88" target="_blank">
             <Title level={5}>{t("ContactUs.location")}</Title>
           </a>
         </div>
