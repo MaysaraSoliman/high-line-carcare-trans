@@ -29,6 +29,7 @@ const MainFooter = () => {
               className="left-col"
               // title="Free Consultations"
               number={t("ContactBox.firstNumber")}
+              numberText={t("ContactBox.firstNumberText")}
             />
           </Col>
           <Col xs={24} md={12} lg={6}>
@@ -56,7 +57,9 @@ const MainFooter = () => {
               </li>
               <li>
                 {" "}
-                <a href="tel:+966536771111">{t("ContactBox.firstNumber")}</a>
+                <a href={t("firstNumber")} target="_blank">
+                  {t("ContactBox.firstNumberText")}
+                </a>
               </li>
             </ul>
             <div className="social-links">

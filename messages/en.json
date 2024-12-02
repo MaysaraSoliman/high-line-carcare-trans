@@ -35,7 +35,7 @@
     },
     "WhoWeAre":{
       "subTitle": "Who We Are" ,
-      "mainTitle": "Simple, overdible, at facitle secret detailing products." ,
+      "mainTitle": "At HighLine, Exceptional car care with simple, effective solutions." ,
       "firstParagraph": "Highline Car Care has been serving the automotive community in Riyadh, Saudi Arabia, for over four decades. Founded by the Al-Sulaimani family in 1977, our commitment to quality and customer satisfaction has remained unwavering throughout our journey." ,
       "secondParagraph": "In 2018, we rebranded as Highline Car Care, reflecting our evolution into a modern, specialized car care service provider while maintaining our roots in traditional automotive expertise." ,
       "thirdParagraph": "Our team of skilled professionals combines years of experience with cutting-edge techniques to deliver exceptional results for every vehicle that enters our facility." ,
@@ -153,8 +153,7 @@
     "WhyChooseUs":{
       "subTitle": "Why Choose Us",
       "firstMainTitle": "Experience, simplicity,",
-      "secondMainTitle": "and Reasonable  ",
-      "thirdMainTitle": "prices.",
+      "secondMainTitle": "Reasonable and prices.",
       "MainLinkBtn": "CONTACT US",
       "firstBox":{
         "title": "40 years of experience",
@@ -199,8 +198,10 @@
       }
     },
     "ContactBox":{
-      "firstNumber": "(+966) 536771111",
-      "secondNumber": "(+966) 565304127"
+      "firstNumber": "tel:+966536771111",
+      "firstNumberText": "(+966) 536771111",
+      "secondNumber": "tel:+966565304127",
+      "secondNumberText": "(+966) 565304127"
     },
     "Counting": {
       "partners": "Partners",
@@ -213,18 +214,18 @@
       "title": "Professional Consultation",
       "mail": "info@highline-carcare.com",
       "location": "Abu Bakr Siddiq Street, ADNOC Station next to Lulu Market, Al-yasmin, Riyadh",
-      "time" : "Sat to Thu 9:00AM to 9:00PM"
+      "time" : "Sat to Thu 9:00 to 21:00"
     },
     "Footer":{
       "copyRights": " Copyright © 2024 All Rights Reserved. | Made By Expanda."
     },
     "ServicesPage":{
       "backGroundMainTitle": "Services",
-      "backGroundSubTitle": "Shine can be found everywhere, but it is most prominently found on HighLine Car Care."
+      "backGroundSubTitle": "Shine can be found everywhere, but it is most prominently found on HighLine."
      },
      "AboutPage":{
       "backGroundMainTitle": "About us",
-      "backGroundSubTitle": "Start the conversation to established good relationship and business."
+      "backGroundSubTitle": "While shine is everywhere, it truly stands out at Highline."
      },
      "ContactPage":{
       "backGroundMainTitle": "Contact us",

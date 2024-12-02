@@ -39,9 +39,9 @@ const ContactUsSlider = () => {
               <li>
                 <div className="list-box">
                   <TbPhoneCall className="icon" />
-                  <a href="tel:+966536771111">
+                  <a href={t("ContactBox.firstNumber")} target="_blank">
                     <Paragraph className="paragraph">
-                      +{t("ContactBox.firstNumber")}
+                      {t("ContactBox.firstNumberText")}
                     </Paragraph>
                   </a>
                 </div>
@@ -49,9 +49,9 @@ const ContactUsSlider = () => {
               <li>
                 <div className="list-box">
                   <TbPhoneCall className="icon" />
-                  <a href="tel:+966565304127">
+                  <a href={t("ContactBox.secondNumber")} target="_blank">
                     <Paragraph className="paragraph">
-                      {t("ContactBox.secondNumber")}
+                      {t("ContactBox.secondNumberText")}
                     </Paragraph>
                   </a>
                 </div>

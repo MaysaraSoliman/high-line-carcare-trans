@@ -18,6 +18,7 @@ const DesktopBottomHeader = () => {
         className="right-col"
         // title={t("freeConsultations")}
         number={t("ContactBox.firstNumber")}
+        numberText={t("ContactBox.firstNumberText")}
       />
     </StyledDesktopBottomHeader>
   );

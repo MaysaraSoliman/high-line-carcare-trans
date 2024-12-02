@@ -24,11 +24,13 @@ const WorkShop = () => {
               className="left-col"
               // title="Free Consultations"
               number={t("ContactBox.firstNumber")}
+              numberText={t("ContactBox.firstNumberText")}
             />
             <ContactBox
               className="right-col"
               // title="Book Appointment"
               number={t("ContactBox.secondNumber")}
+              numberText={t("ContactBox.secondNumberText")}
             />
           </div>
           <Image
