@@ -1,7 +1,7 @@
 import { Col, Divider, Row } from "antd";
 import Image from "next/image";
 import React from "react";
-import LogoImage from "../../../public/assets/images/logo_white (1).png";
+import LogoImage from "../../../public/assets/images/white-logo.png";
 import "./MainFooter.css";
 import Paragraph from "antd/es/typography/Paragraph";
 import ContactBox from "../contactBox/ContactBox";
@@ -27,7 +27,6 @@ const MainFooter = () => {
             </Paragraph>
             <ContactBox
               className="left-col"
-              // title="Free Consultations"
               number={t("ContactBox.firstNumber")}
               numberText={t("ContactBox.firstNumberText")}
             />
@@ -89,10 +88,7 @@ const MainFooter = () => {
         </Row>
       </div>
       <Divider className="divider" />
-      <div className="copy-rights">
-        {t("Footer.copyRights")}
-        {/* Copyright © 2024 All Rights Reserved. | Made By Expanda. */}
-      </div>
+      <div className="copy-rights">{t("Footer.copyRights")}</div>
     </div>
   );
 };

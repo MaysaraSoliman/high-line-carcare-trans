@@ -8,6 +8,9 @@ export const StyledDesktopBottomHeader = styled.div`
   .logo-link {
     display: flex;
     align-items: center;
+    img {
+      width: 226px;
+    }
   }
   .nav {
     width: 400px;

@@ -1,4 +1,3 @@
-// app/404.tsx
 const Custom404 = () => {
   return (
     <div>

@@ -316,6 +316,12 @@ button {
   }
 }
 
+@media (max-width: 512px) {
+  .ant-layout-header {
+    padding: 0 25px !important;
+  }
+}
+
 
 
 @keyframes appearRight {

@@ -20,7 +20,6 @@ const WhyChooseUs = () => {
               firstTitle={t("subTitle")}
               secondTitle={t("firstMainTitle")}
               thirdTitle={t("secondMainTitle")}
-              // fourthTitle={t("thirdMainTitle")}
               button={t("MainLinkBtn")}
               linkPage="/contact"
             />

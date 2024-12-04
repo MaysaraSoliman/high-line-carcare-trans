@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "../../../navbar/Navbar";
-import logoImage from "/public/assets/images/logo_white (1).png";
+import logoImage from "/public/assets/images/white-logo.png";
 import { StyledDesktopBottomHeader } from "./desktopBottomHeader.styled";
 import Link from "next/link";
 import ContactBox from "@/components/contactBox/ContactBox";
@@ -16,7 +16,6 @@ const DesktopBottomHeader = () => {
       <Navbar mode={"horizontal"} />
       <ContactBox
         className="right-col"
-        // title={t("freeConsultations")}
         number={t("ContactBox.firstNumber")}
         numberText={t("ContactBox.firstNumberText")}
       />

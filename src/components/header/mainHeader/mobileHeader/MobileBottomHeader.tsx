@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logoImage from "/public/assets/images/logo_white (1).png";
+import logoImage from "/public/assets/images/white-logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Drawer, Select } from "antd";
 import { useState } from "react";

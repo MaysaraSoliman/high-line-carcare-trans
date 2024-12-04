@@ -16,6 +16,14 @@
     margin-bottom: 25px;
 }
 
+#MainFooter .main-footer-container .ant-col .image {
+    width: 226px;
+}
+
+#MainFooter .main-footer-container .ant-col .image img {
+    width: 100%;
+}
+
 #MainFooter .main-footer-container .ant-col .paragraph {
     margin-top: 25px;
     line-height: 1.6;

@@ -4,8 +4,7 @@ import { routing } from "./i18n/routing";
 export default createMiddleware(routing);
 
 export const config = {
-  locales: ["en", "ar"], // Specify your supported locales
+  locales: ["en", "ar"],
   defaultLocale: "en",
-  // Match only internationalized pathnames
   matcher: ["/", "/(ar|en)/:path*"],
 };
