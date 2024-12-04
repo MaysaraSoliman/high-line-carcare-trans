@@ -16,6 +16,11 @@ export const StyledDesktopTopHeader = styled.div`
     margin-right: 15px;
     h5 {
       margin-bottom: 0 !important;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 200px;
+      display: block;
     }
   }
   .right-col {
@@ -33,9 +38,10 @@ export const StyledDesktopTopHeader = styled.div`
   @media (max-width: 768px) {
     justify-content: center;
     .left-col {
-      display: none;
     }
     .right-col {
+      display: none;
+
       a {
         display: none;
       }

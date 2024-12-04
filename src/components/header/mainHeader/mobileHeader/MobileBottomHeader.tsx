@@ -20,10 +20,6 @@ const MobileBottomHeader = () => {
     setOpen(false);
   };
 
-  const handleChange = (value: string) => {
-    console.log(`selected ${value}`);
-  };
-
   return (
     <section>
       <StyledMobileBottomHeader>
@@ -37,29 +33,6 @@ const MobileBottomHeader = () => {
           <Drawer title="Menu" onClose={onClose} open={open}>
             <Navbar mode={"vertical"} onClose={onClose} />
             <LocalSwitcher />
-            <Select
-              defaultValue="lucy"
-              style={{ width: 200 }}
-              onChange={handleChange}
-              options={[
-                {
-                  label: <span>manager</span>,
-                  title: "manager",
-                  options: [
-                    { label: <span>Jack</span>, value: "Jack" },
-                    { label: <span>Lucy</span>, value: "Lucy" },
-                  ],
-                },
-                {
-                  label: <span>engineer</span>,
-                  title: "engineer",
-                  options: [
-                    { label: <span>Chloe</span>, value: "Chloe" },
-                    { label: <span>Lucas</span>, value: "Lucas" },
-                  ],
-                },
-              ]}
-            />
           </Drawer>
         </div>
       </StyledMobileBottomHeader>
